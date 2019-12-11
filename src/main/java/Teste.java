@@ -14,7 +14,7 @@ public class Teste {
 		public void preencherFormulario() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		
-		System.getProperty("webdriver.chrome.driver","C:\\Users\\adlai\\eclipse-workspace\\selenium-test\\src\\main\\resources\\drives\\chromedriver.exe");
+		System.getProperty("webdriver.chrome.driver",".\\src\\main\\resources\\drives");
 		driver.navigate().to("https://jumptreinamentos.com.br");
 		driver.manage().window().maximize();
 		// acessar menu contatos
