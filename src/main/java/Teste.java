@@ -9,12 +9,12 @@ import junit.framework.Assert;
 
 public class Teste {
 	
-	//public static void main(String[] args) throws InterruptedException {
+	
 		@Test
 		public void preencherFormulario() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		
-		System.getProperty("webdriver.chrome.driver",".\\src\\main\\resources\\drives");
+		System.setProperty("webdriver.chrome.driver","./src\\main\\resources\\drives\\chromedriver.exe");
 		driver.navigate().to("https://jumptreinamentos.com.br");
 		driver.manage().window().maximize();
 		// acessar menu contatos
