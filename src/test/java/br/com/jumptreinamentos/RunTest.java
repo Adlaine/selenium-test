@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		"json:target/surefire-reports/cucumber.json" }, 
         glue = "br.com.jumptreinamentos.steps", 
         features = {"./src\\test\\resources\\features\\" }, 
-        tags = {"@Login" }, stepNotifications = true, 
+        tags = {"@adcionarNacionalidade" }, stepNotifications = true, 
         dryRun = false)
 public class RunTest {
 }

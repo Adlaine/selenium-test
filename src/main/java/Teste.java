@@ -22,7 +22,7 @@ public class Teste {
 		//preencher o formulario
 		driver.findElement(By.xpath("//input[@placeholder='Seu nome']")).sendKeys("Teofilo");
 		driver.findElement(By.xpath("//input[@placeholder='Seu e-mail']")).sendKeys("teste@test.com.br");
-		driver.findElement(By.xpath("//input[@placeholder='Assunto']")).sendKeys("Olá tudo bem?");
+		driver.findElement(By.xpath("//input[@placeholder='Assunto']")).sendKeys("Ola tudo bem?");
 		driver.findElement(By.xpath("//textarea[@placeholder='Mensagem']")).sendKeys("Deu certo!!!!!!!!!!!!!!!!!!!!!");
 	
 		//enviar
